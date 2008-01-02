@@ -9,6 +9,7 @@ Release: %{release}
 Source0: %{name}
 License: GPL
 Group: File tools
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 
