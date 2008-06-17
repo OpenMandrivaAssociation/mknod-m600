@@ -1,6 +1,6 @@
 %define name mknod-m600
 %define version 1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Create block/character devices as normal user
 Name: %{name}
