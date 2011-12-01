@@ -19,11 +19,11 @@ Create block/character devices as normal user.
 This is only useful when building images (eg: rescue, install).
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -D -m 4755 %SOURCE0 $RPM_BUILD_ROOT/usr/bin/%{name}
+rm -rf %{buildroot}
+install -D -m 4755 %SOURCE0 %{buildroot}/usr/bin/%{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
