@@ -1,7 +1,7 @@
 Summary:	Create block/character devices as normal user
 Name:		mknod-m600
 Version:	1.2
-Release:	9
+Release:	10
 License:	GPLv2
 Group:		File tools
 Source0:	%{name}
